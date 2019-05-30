@@ -399,9 +399,8 @@ def get_lacunarity_curve(root,pXX,L,p32,orientation,a,lmin,lmax):
 
 
 def pXX_lacunarity_theory(pXX,s,root,L,p32,orientation,a,lmin,lmax):
-
-    bl=0.94 # mean surface of infinite plane crossing a cube
-    bs=0.94
+    
+    bs=1.
     bf=math.pi/4
     lSmall = 0.05*L
     lBig = L
